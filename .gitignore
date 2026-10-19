@@ -1,0 +1,15 @@
+# python
+__pycache__/
+*.pyc
+
+# uv
+.venv/
+dist/
+build/
+
+# secrets
+.env
+
+# runtime state (chroma db, backups) and model weights
+src/naoki/data/
+src/naoki/models/
